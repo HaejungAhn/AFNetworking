@@ -517,7 +517,6 @@
 		2995223B1BBF104D00859F49 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE271B962BAB1D3B00645BA4 /* PrivacyInfo.xcprivacy */,
 				2995223C1BBF104D00859F49 /* AFNetworking.h */,
 				2995223E1BBF104D00859F49 /* Info.plist */,
 				439E2811247E16DE004467ED /* AFNetworking.podspec */,
@@ -537,6 +536,7 @@
 		299522451BBF125A00859F49 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				CE271B982BAB242B00645BA4 /* Resources */,
 				1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */,
 				299522461BBF125A00859F49 /* AFHTTPSessionManager.h */,
 				299522471BBF125A00859F49 /* AFHTTPSessionManager.m */,
@@ -592,6 +592,14 @@
 				5F4323B51BF63741003B8749 /* google.com.cer */,
 			);
 			path = Google.com;
+			sourceTree = "<group>";
+		};
+		CE271B982BAB242B00645BA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE271B962BAB1D3B00645BA4 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
